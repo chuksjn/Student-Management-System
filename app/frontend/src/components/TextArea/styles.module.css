@@ -1,0 +1,28 @@
+.smooth {
+  @apply transition-all duration-300 ease-out;
+}
+
+.input_container {
+  @apply flex flex-col gap-y-2;
+}
+
+.input_label {
+  @apply text-sm relative font-medium text-[#0A0D14];
+}
+
+.input--required {
+  @apply w-1 h-1 absolute ml-[0.8px] top-[5px] rounded-full;
+}
+
+.input_field {
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  @apply pl-[10px] pr-3  py-[10px] text-sm outline-none text-[#0A0D14] bg-white/60 border-[#E2E4E9] border placeholder:text-[#868C98] rounded-xl read-only:bg-gray-200 read-only:focus:bg-gray-200 read-only:text-gray-50 read-only:focus:text-gray-500 read-only:border-[#E6E8F0] read-only:focus:border-[#E6E8F0] smooth;
+}
+
+.input--field-sm {
+  @apply text-sm;
+}
+
+.input--field-reg {
+  @apply text-base;
+}

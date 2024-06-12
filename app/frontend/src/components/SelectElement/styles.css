@@ -1,0 +1,22 @@
+.select-container {
+  @apply flex flex-col gap-y-[6px];
+}
+.select-label {
+  @apply text-sm relative  text-[#0A0D14];
+}
+
+.select-menu-container {
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  @apply pl-[10px] pr-3  py-[10px] cursor-pointer border-[#E2E4E9] border rounded-xl text-sm outline-none text-[#0A0D14] bg-white/60;
+}
+
+.select {
+  @apply outline-none bg-transparent w-full cursor-pointer;
+}
+
+/* .option--present {
+  @apply bg-grey-100;
+}
+.option--absent {
+  @apply bg-white;
+} */

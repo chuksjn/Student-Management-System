@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && node server.js",
+    "client": "cd frontend && npm run dev"
+  },
+  "keywords": [],
+  "author": "chuks",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.19.2"
+  }
+}

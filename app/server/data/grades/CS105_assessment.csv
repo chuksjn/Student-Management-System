@@ -1,0 +1,7 @@
+Student ID,Student Name,Student Email,Submission Status,Mark,Weight/Maximum Grade,Marking workflow state
+1003,Michael Johnson,michaeljohnson@example.com,Submitted for grading - Released,80,100,Released
+1005,Daniel Brown,danielbrown@example.com,No submission - Not marked,0,100,Not marked
+1007,David Lee,davidlee@example.com,Submitted for grading - Released,91,100,Released
+1004,Emily Davis,emilydavis@example.com,Submitted for grading - Released,74,100,Released
+1006,Sarah Wilson,sarahwilson@example.com,No submission - Not marked,0,100,Not marked
+1001,John Doe,johndoe@example.com,Submitted for grading - Released,88,100,Released
